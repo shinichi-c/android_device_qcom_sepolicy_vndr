@@ -397,6 +397,9 @@ type vendor_scve_data_file, file_type, data_file_type;
 # usb device controller files
 type sysfs_usb_controller, sysfs_type, fs_type;
 
+# usb data enabled files
+type vendor_sysfs_usb_data_enabled, sysfs_type, fs_type;
+
 #qvrservice sysfs files
 type sysfs_qvr_external_sensor, sysfs_type, fs_type;
 

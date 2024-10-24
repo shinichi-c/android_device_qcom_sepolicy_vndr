@@ -380,6 +380,7 @@
 /sys/class/qcom-battery(/.*)?                                       u:object_r:sysfs_battery_supply:s0
 /sys/class/charge_pump(/.*)?                                        u:object_r:sysfs_battery_supply:s0
 /sys/devices/soc/[a-f0-9]+.ssusb/power_supply/usb(/.*)?             u:object_r:sysfs_usb_supply:s0
+/sys/devices(/platform)?/soc/[a-f0-9]+.ssusb/usb_data_enabled          u:object_r:vendor_sysfs_usb_data_enabled:s0
 /sys/devices/soc/qpnp-vadc-[0-9]+(/.*)?                             u:object_r:sysfs_vadc_dev:s0
 /sys/bus/spmi/devices(/.*)?                                         u:object_r:sysfs_spmi_dev:s0
 /sys/kernel/irq_helper/irq_blacklist_on                             u:object_r:vendor_sysfs_irqbalance:s0
